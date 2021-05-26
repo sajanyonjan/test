@@ -3,4 +3,6 @@ b = int(input("Enter a second number\t:"))
 c = int(input("Enter a fourth number\t:"))
 def git(a, b):
     x = a + b
-    return x
+    y = a - c
+    return x, y
+print(git(a, b))
